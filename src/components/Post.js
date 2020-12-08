@@ -37,7 +37,7 @@ const Post = () => {
                   <span className='block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-red-700' key={index}>
                     <img src={post.mainImage.asset.url} alt={post.mainImage.alt} className='w-full h-full rounded-r object-cover absolute' />
                     <span className='block relative h-full flex justify-end items-end pr-4 pb-4'>
-                      <h3 className='text-gray-100 text-lg font-blog px-3 py-4 bg-red-700 bg-opacity-75 rounded hover:bg-opacity-50'>{post.title}</h3>
+                      <h3 className='text-gray-100 text-lg font-bold px-3 py-4 bg-red-700 bg-opacity-75 rounded hover:bg-opacity-50'>{post.title}</h3>
                     </span>
                   </span>
                 </Link>
